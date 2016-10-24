@@ -8,11 +8,15 @@
   },
   "permissions": [
     "activeTab",
-    "contextMenus"
+    "contextMenus",
+    "storage"
   ],
   "browser_action": {
     "default_icon": "icons/vault-logo-icon.png",
     "default_title": "Vault",
     "default_popup": "html/popup.html"
+  },
+  "options_ui": {
+    "page": "html/options.html"
   }
 }
