@@ -1,0 +1,30 @@
+{
+  "name": "firefox-vault",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-vault": "^0.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hielsnoppe/firefox-vault.git"
+  },
+  "keywords": [
+    "Firefox",
+    "Vault"
+  ],
+  "author": "Niels Hoppe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hielsnoppe/firefox-vault/issues"
+  },
+  "homepage": "https://github.com/hielsnoppe/firefox-vault#readme"
+}

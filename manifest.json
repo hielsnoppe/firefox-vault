@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Firefox Vault",
+  "version": "0.0.1",
+  "description": "",
+  "icons": {
+    "48": "icons/vault-logo-icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "browser_action": {
+    "default_icon": "icons/vault-logo-icon.png",
+    "default_title": "Vault",
+    "default_popup": "html/popup.html"
+  }
+}
